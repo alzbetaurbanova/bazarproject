@@ -1,0 +1,53 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Bazár</Name>
+    <ProjectGuid>{28758130-6b8a-4984-b574-8289c632ffce}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.1</RuntimeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="connect.php" />
+    <Compile Include="pages\addnew.php" />
+    <Compile Include="pages\footer.php" />
+    <Compile Include="pages\header.php" />
+    <Compile Include="pages\home.php" />
+    <Compile Include="index.php" />
+    <Compile Include="pages\recent.php" />
+    <Compile Include="pages\zvierata.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Images\Icons\" />
+    <Folder Include="Images\produkty\" />
+    <Folder Include="pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\cloud.png" />
+    <Content Include="Images\Icons\addphotos.png" />
+    <Content Include="Images\Icons\auto.png" />
+    <Content Include="Images\Icons\bike.png" />
+    <Content Include="Images\Icons\book.png" />
+    <Content Include="Images\Icons\chair.png" />
+    <Content Include="Images\Icons\guitar.png" />
+    <Content Include="Images\Icons\pc.png" />
+    <Content Include="Images\Icons\pets.png" />
+    <Content Include="Images\Icons\tshirt.png" />
+    <Content Include="Images\produkty\auto.jpg" />
+    <Content Include="Images\produkty\elitebook.jpg" />
+    <Content Include="Images\produkty\husky.jpg" />
+    <Content Include="Images\produkty\kocka.jpg" />
+    <Content Include="Images\search bar.png" />
+    <Content Include="mycss.css" />
+  </ItemGroup>
+</Project>
