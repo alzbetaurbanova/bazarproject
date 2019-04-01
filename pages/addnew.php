@@ -9,7 +9,7 @@
 					<input type="text" class="form-control" name="hladaj" placeholder="Zadaj hľadané slovo">
 				</div>
                 <div class="col-md-4">
-					<button type="submit" class="btn btn-primary">Hľadať</button> s
+					<button type="submit" class="btn btn-primary">Hľadať</button>
 		        </div>
 	    </div>
     </form>
